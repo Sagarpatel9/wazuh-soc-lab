@@ -42,6 +42,7 @@ The goal of this lab is to simulate real-world SOC infrastructure, including cen
 
 ## 📂 Project Structure
 
+```
 wazuh-soc-lab/
 ├── README.md
 └── day-1-deployment/
@@ -50,6 +51,7 @@ wazuh-soc-lab/
     ├── initial-validation.md
     ├── troubleshooting.md
     └── screenshots/
+```
 
 ---
 
@@ -83,3 +85,4 @@ This lab is part of a structured effort to build hands-on experience in:
 - Blue Team Operations  
 - SIEM Management  
 - Incident Detection & Analysis  
+
