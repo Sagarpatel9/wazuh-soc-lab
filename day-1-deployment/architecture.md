@@ -1,15 +1,14 @@
 # Day 1 – Architecture Overview
 
 ## Objective
-Deploy a cloud-based SOC lab using Wazuh on Google Cloud Platform (GCP).
+Deploy a centralized Wazuh SIEM manager in Google Cloud to simulate a Security Operations Center (SOC) environment.
 
 ## Environment Components
 
-- Wazuh Manager (Ubuntu Server)
-- Wazuh Dashboard
-- Linux Agent
-- Google Cloud VM Infrastructure
-- Firewall Rules (Port 1514, 1515, 55000, 443)
+- Google Cloud VM (Ubuntu 22.04 LTS)
+- Wazuh Manager
+- Wazuh Dashboard (OpenSearch-based)
+- Public HTTPS Access (Port 443)
 
 ## Network Layout
 
@@ -18,19 +17,15 @@ Internet
 GCP External IP
    ↓
 Wazuh Manager VM
-   ↓
-Wazuh Agents
 
-## Security Design Decisions
+## Security Configuration
 
-- SSH restricted to my public IP
-- HTTPS enabled for dashboard
-- Separate VM for agent testing
+- SSH restricted to authorized IP
+- HTTPS enabled for dashboard access
+- Required Wazuh ports configured (1514, 1515, 55000, 443)
 - Principle of least privilege applied to firewall rules
 
-## Why This Architecture?
+## Purpose of This Phase
 
-This design simulates a real-world SOC setup where:
-- Centralized log aggregation occurs on a manager
-- Endpoints forward logs securely
-- Alerts are monitored via a dashboard
+This phase establishes the centralized SIEM infrastructure.
+Endpoint agents and detection engineering will be implemented in later phases.
