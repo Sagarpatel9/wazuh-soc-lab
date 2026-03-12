@@ -36,7 +36,40 @@ The goal of this lab is to simulate real-world SOC infrastructure, including cen
 - Wazuh Dashboard: Accessible via HTTPS  
 - OpenSearch Cluster: Green  
 - Static IP: In Use  
-- Agents: Not yet connected (Next Phase)  
+- Agents: Windows endpoint successfully connected  
+
+---
+🏗️ Phase 2 – Endpoint Agent Deployment (Completed)
+
+Objectives
+Deploy Windows endpoint VM
+Install Wazuh agent
+Configure firewall rules for agent communication
+Verify endpoint log ingestion
+
+🖥️ Endpoint Environment
+Operating System: Microsoft Windows Server 2025 Datacenter
+Agent Version: Wazuh Agent 4.7.5
+Manager Internal IP: 10.128.0.2
+Endpoint Internal IP: 10.128.0.3
+
+🔐 Firewall Configuration
+
+Allowed ports:
+
+1514 TCP – Log forwarding  
+1515 TCP – Agent registration  
+
+Source range:
+
+10.128.0.0/20
+
+✅ Validation Results
+
+Agent status: Active  
+Windows logs successfully ingested into Wazuh  
+Security events visible in dashboard  
+Endpoint communication verified
 
 ---
 
@@ -49,6 +82,11 @@ wazuh-soc-lab/
     ├── architecture.md
     ├── installation-steps.md
     ├── initial-validation.md
+    ├── troubleshooting.md
+    └── screenshots/
+└── day-2-agent-deployment/
+    ├── installation-steps.md
+    ├── validation.md
     ├── troubleshooting.md
     └── screenshots/
 ```
@@ -68,12 +106,14 @@ wazuh-soc-lab/
 
 # 🚀 Next Phase
 
-Phase 2 will focus on:
 
-- Endpoint Agent Deployment  
-- Log Ingestion  
-- Alert Generation  
-- SOC Workflow Simulation  
+Phase 3 will focus on:
+
+Attack Simulation
+Alert Generation
+Threat Detection
+SOC Investigation Workflow
+MITRE ATT&CK Mapping
 
 ---
 
@@ -85,4 +125,5 @@ This lab is part of a structured effort to build hands-on experience in:
 - Blue Team Operations  
 - SIEM Management  
 - Incident Detection & Analysis  
+
 
