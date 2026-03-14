@@ -33,9 +33,9 @@ This command creates a new local user account named attacker on the Windows syst
 
 Attackers may create new accounts to maintain persistent access to a compromised machine.
 
-Generated Windows Event
-Event ID: 4720
-Meaning: A user account was created.
+Generated Windows Event  
+Event ID: 4720  
+Meaning: A user account was created.  
 
 ## Attack 2 – Privilege Escalation
 
@@ -47,9 +47,9 @@ net localgroup administrators attacker /add
 Description
 This command adds the attacker user to the Administrators group, granting elevated privileges.
 
-Generated Windows Event
-Event ID: 4732
-Meaning: A member was added to a security-enabled local group.
+Generated Windows Event  
+Event ID: 4732  
+Meaning: A member was added to a security-enabled local group.  
 
 This type of activity may indicate an attacker attempting to gain administrative control over a system.
 
@@ -63,7 +63,7 @@ Event ID: 4625
 Meaning: An account failed to log on.  
 Repeated authentication failures may indicate a brute-force attempt to guess valid credentials.  
 
-Summary
+Summary  
 These simulated attacks generated Windows Security Event Logs which were forwarded to the Wazuh manager.
 
 The events were analyzed by Wazuh detection rules and resulted in security alerts that were investigated using the Wazuh dashboard.
