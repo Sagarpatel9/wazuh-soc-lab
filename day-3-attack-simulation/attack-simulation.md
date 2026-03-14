@@ -58,10 +58,10 @@ This type of activity may indicate an attacker attempting to gain administrative
 ### Simulation Method
 Multiple incorrect login attempts were performed on the Windows endpoint.
 
-Generated Windows Event
-Event ID: 4625
-Meaning: An account failed to log on.
-Repeated authentication failures may indicate a brute-force attempt to guess valid credentials.
+#Generated Windows Event
+#Event ID: 4625
+#Meaning: An account failed to log on.
+#Repeated authentication failures may indicate a brute-force attempt to guess valid credentials.
 
 Summary
 These simulated attacks generated Windows Security Event Logs which were forwarded to the Wazuh manager.
