@@ -47,7 +47,7 @@ The Windows endpoint agent is successfully connected to the Wazuh manager.
 
 Screenshot:
 
-screenshots/day3-agent-active.png
+![Agent Active](screenshots/day3-agent-active.png)
 
 ---
 
