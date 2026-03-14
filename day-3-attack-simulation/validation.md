@@ -57,7 +57,7 @@ Wazuh detected the creation of a new user account on the Windows endpoint.
 
 Screenshot:
 
-screenshots/day3-user-account-created-alert.png
+![Agent Active](screenshots/day3-user-account-created-alert.png)
 
 ---
 
