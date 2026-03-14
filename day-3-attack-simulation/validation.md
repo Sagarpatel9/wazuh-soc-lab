@@ -67,7 +67,7 @@ Wazuh detected a modification to the **Administrators group**, indicating privil
 
 Screenshot:
 
-screenshots/day3-admin-group-change-detection.png
+![Agent Active](screenshots/day3-admin-group-change-detection.png)
 
 ---
 
@@ -77,7 +77,7 @@ Multiple failed login attempts were detected and recorded as authentication fail
 
 Screenshot:
 
-screenshots/day3-failed-login-detection.png
+![Active Agent](screenshots/day3-failed-login-detection.png)
 
 ---
 
