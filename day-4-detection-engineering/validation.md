@@ -57,7 +57,7 @@ The PowerShell command used to simulate process discovery activity.
 
 Screenshot:
 
-![Attack Execution](screenshots/02-attack-execution.png)
+![Attack Execution](screenshots/day4-powershell-suspicious-command.png)
 
 ---
 
@@ -67,7 +67,7 @@ Wazuh detected the PowerShell activity using the built-in rule.
 
 Screenshot:
 
-![Event Ingested](screenshots/03-event-ingested.png)
+![Event Ingested](screenshots/day4-powershell-event-ingested.png)
 
 ---
 
@@ -77,7 +77,7 @@ Wazuh triggered the custom rule `100002` based on the PowerShell activity.
 
 Screenshot:
 
-![Custom Rule Triggered](screenshots/04-custom-rule-triggered.png)
+![Custom Rule Triggered](screenshots/day4-custom-rule-triggered.png)
 
 ---
 
@@ -87,7 +87,7 @@ The alert details confirm the detection and rule correlation.
 
 Screenshot:
 
-![Alert Details](screenshots/05-alert-details.png)
+![Alert Details](screenshots/day4-custom-rule-details.png)
 
 ---
 
@@ -97,7 +97,7 @@ The custom rule defined in `local_rules.xml`.
 
 Screenshot:
 
-![Custom Rule Code](screenshots/06-custom-rule.png)
+![Custom Rule Code](screenshots/day4-custom-rule-code.png)
 
 ---
 
