@@ -88,4 +88,8 @@ Rule chaining allows detection to build on existing Wazuh rules.
 3. Wazuh agent forwards the event  
 4. Built-in rule `91815` detects PowerShell activity  
 5. Custom rule `100002` triggers  
-6. Alert appears in Wazuh dashboard  
+6. Alert appears in Wazuh dashboard
+
+### Outcome
+
+The custom rule successfully generated alerts based on PowerShell activity and demonstrated how rule chaining can be used in Wazuh detection engineering.
