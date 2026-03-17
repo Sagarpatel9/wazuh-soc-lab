@@ -47,7 +47,7 @@ PowerShell Script Block Logging was enabled on the Windows endpoint.
 
 Screenshot:
 
-![PowerShell Logging](screenshots/01-powershell-logging.png)
+![PowerShell Logging](screenshots/day4-powershell-logging-enabled.png)
 
 ---
 
