@@ -52,6 +52,18 @@ day-3-attack-simulation/
 
 ---
 
+## Phase 4 – Detection Engineering
+
+Design and implement custom Wazuh detection rules to identify specific attacker behaviors using rule chaining.
+
+Documentation:
+
+```
+day-4-detection-engineering/
+```
+
+---
+
 # 📂 Project Structure
 
 ```
@@ -72,10 +84,16 @@ wazuh-soc-lab
 │   ├── troubleshooting.md
 │   └── screenshots
 │
-└── day-3-attack-simulation
+├── day-3-attack-simulation
+│   ├── attack-simulation.md
+│   ├── investigation.md
+│   ├── mitre-mapping.md
+│   ├── validation.md
+│   └── screenshots
+│
+└── day-4-detection-engineering
+    ├── custom-rule.md
     ├── attack-simulation.md
-    ├── investigation.md
-    ├── mitre-mapping.md
     ├── validation.md
     └── screenshots
 ```
@@ -92,6 +110,8 @@ wazuh-soc-lab
 - SOC Investigation Workflow
 - MITRE ATT&CK Mapping
 - Technical Documentation
+- Detection Engineering
+- Custom SIEM Rule Development (Wazuh)
 
 ---
 
