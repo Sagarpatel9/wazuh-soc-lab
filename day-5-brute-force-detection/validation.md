@@ -46,7 +46,7 @@ Verify that repeated failed login attempts are correctly logged by Windows and d
 
 ![Wazuh Rule Metadata2](screenshots/wazuh-alert-event-details2.png)
 
-![Wazuh Rule Metadata3](sscreenshots/wazuh-alert-event-details3.png)
+![Wazuh Rule Metadata3](screenshots/wazuh-alert-event-details3.png)
 
 ---
 
