@@ -31,7 +31,7 @@ Verify that repeated failed login attempts are correctly logged by Windows and d
 ## Evidence
 
 ### Event Viewer – Multiple Failed Logins (4625)
-![Event Viewer Failed Logins](day-5-brute-force-detection/screenshots/eventviewer-4625-event-details.png)
+![Event Viewer Failed Logins](screenshots/eventviewer-4625-event-details.png)
 
 ---
 
