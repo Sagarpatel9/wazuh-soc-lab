@@ -64,6 +64,20 @@ day-4-detection-engineering/
 
 ---
 
+## Phase 5 – Brute Force Attack Detection
+
+Simulate brute force login attempts on a Windows endpoint and analyze repeated authentication failures using Wazuh SIEM.
+
+This phase focuses on identifying patterns of failed logins (Event ID 4625), validating alert generation, and mapping the activity to MITRE ATT&CK.
+
+Documentation:
+
+```
+day-5-brute-force-detection/
+```
+
+---
+
 # 📂 Project Structure
 
 ```
@@ -72,30 +86,37 @@ wazuh-soc-lab
 ├── README.md
 │
 ├── day-1-deployment
-│   ├── architecture.md
-│   ├── installation-steps.md
-│   ├── initial-validation.md
-│   ├── troubleshooting.md
-│   └── screenshots
+│ ├── architecture.md
+│ ├── installation-steps.md
+│ ├── initial-validation.md
+│ ├── troubleshooting.md
+│ └── screenshots
 │
 ├── day-2-agent-deployment
-│   ├── installation-steps.md
-│   ├── validation.md
-│   ├── troubleshooting.md
-│   └── screenshots
+│ ├── installation-steps.md
+│ ├── validation.md
+│ ├── troubleshooting.md
+│ └── screenshots
 │
 ├── day-3-attack-simulation
-│   ├── attack-simulation.md
-│   ├── investigation.md
-│   ├── mitre-mapping.md
-│   ├── validation.md
-│   └── screenshots
+│ ├── attack-simulation.md
+│ ├── investigation.md
+│ ├── mitre-mapping.md
+│ ├── validation.md
+│ └── screenshots
 │
-└── day-4-detection-engineering
-    ├── custom-rule.md
-    ├── attack-simulation.md
-    ├── validation.md
-    └── screenshots
+├── day-4-detection-engineering
+│ ├── custom-rule.md
+│ ├── attack-simulation.md
+│ ├── validation.md
+│ └── screenshots
+│
+└── day-5-brute-force-detection
+├── attack-simulation.md
+├── validation.md
+├── mitre-mapping.md
+└── screenshots
+
 ```
 
 ---
@@ -112,6 +133,7 @@ wazuh-soc-lab
 - Technical Documentation
 - Detection Engineering
 - Custom SIEM Rule Development (Wazuh)
+- Brute Force Detection & Authentication Analysis (Event ID 4625)
 
 ---
 
