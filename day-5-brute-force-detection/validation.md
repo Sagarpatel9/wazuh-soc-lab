@@ -36,22 +36,17 @@ Verify that repeated failed login attempts are correctly logged by Windows and d
 ---
 
 ### Wazuh Dashboard – Authentication Failure Pattern
-![Wazuh Dashboard Pattern](screenshots/wazuh-dashboard-bruteforce-pattern.png)
+![Wazuh Dashboard Pattern](screenshots/wazuh-dashboard-authentication-failures.png)
 
 ---
 
 ### Wazuh Alert – Rule Metadata
-![Wazuh Rule Metadata](screenshots/wazuh-alert-rule-metadata.png)
+![Wazuh Rule Metadata](screenshots/wazuh-alert-event-details1.png)
 
----
 
-### Wazuh Alert – Raw Windows Event Message
-![Wazuh Raw Event](screenshots/wazuh-alert-windows-message.png)
+![Wazuh Rule Metadata2](screenshots/wazuh-alert-event-details2.png)
 
----
-
-### Wazuh Alert – Parsed Fields
-![Wazuh Parsed Fields](screenshots/wazuh-alert-parsed-fields.png)
+![Wazuh Rule Metadata3](sscreenshots/wazuh-alert-event-details3.png)
 
 ---
 
