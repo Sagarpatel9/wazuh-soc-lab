@@ -75,6 +75,10 @@ Two scenarios were tested:
 
 ### After Correlation – Brute Force Detection Alert
 ![After Correlation](screenshots/wazuh-after-correlation-bruteforce-alert.png)
+![After Correlation1](screenshots/wazuh-after-correlation-bruteforce-alert1.png)
+![After Correlation2](screenshots/wazuh-after-correlation-bruteforce-alert2.png)
+![After Correlation3](screenshots/wazuh-after-correlation-bruteforce-alert3.png)
+![After Correlation4](screenshots/wazuh-after-correlation-bruteforce-alert4.png)
 
 ---
 
