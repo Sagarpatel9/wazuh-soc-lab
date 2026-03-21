@@ -78,6 +78,20 @@ day-5-brute-force-detection/
 
 ---
 
+## Phase 6 – Detection Engineering & Event Correlation
+
+Design and implement a custom Wazuh detection rule to identify brute force attacks by correlating multiple failed login events within a defined time window.
+
+This phase focuses on reducing alert noise, improving detection accuracy, and applying SOC-level analysis to transform multiple low-level alerts into a single high-confidence detection.
+
+Documentation:
+
+```
+day-6-detection-analysis/
+```
+
+---
+
 # 📂 Project Structure
 
 ```
@@ -111,10 +125,16 @@ wazuh-soc-lab
 │ ├── validation.md
 │ └── screenshots
 │
-└── day-5-brute-force-detection
-├── attack-simulation.md
+├── day-5-brute-force-detection
+│ ├── attack-simulation.md
+│ ├── validation.md
+│ ├── mitre-mapping.md
+│ └── screenshots
+│
+└── day-6-detection-analysis
+├── pattern-analysis.md
+├── custom-rule.md
 ├── validation.md
-├── mitre-mapping.md
 └── screenshots
 
 ```
@@ -134,6 +154,9 @@ wazuh-soc-lab
 - Detection Engineering
 - Custom SIEM Rule Development (Wazuh)
 - Brute Force Detection & Authentication Analysis (Event ID 4625)
+- Event Correlation & Alert Reduction
+- Brute Force Detection Engineering (Custom Wazuh Rules)
+- Threshold-Based Detection Logic (Frequency & Timeframe)
 
 ---
 
