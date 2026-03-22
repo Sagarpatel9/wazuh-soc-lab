@@ -92,6 +92,26 @@ day-6-detection-analysis/
 
 ---
 
+## Phase 7 – Incident Response & Reporting
+
+Perform a full SOC incident response workflow based on the detected brute force attack.
+
+This phase focuses on:
+
+- Investigating alerts in detail
+- Analyzing event logs and metadata
+- Building a timeline of attacker activity
+- Performing incident response actions
+- Creating a structured incident report
+
+Documentation:
+
+```
+day-7-incident-response/
+```
+
+---
+
 # 📂 Project Structure
 
 ```
@@ -136,6 +156,11 @@ wazuh-soc-lab
 ├── custom-rule.md
 ├── validation.md
 └── screenshots
+├── day-7-incident-response
+│   ├── investigation.md
+│   ├── response.md
+│   ├── summary.md
+│   └── screenshots
 
 ```
 
@@ -157,6 +182,10 @@ wazuh-soc-lab
 - Event Correlation & Alert Reduction
 - Brute Force Detection Engineering (Custom Wazuh Rules)
 - Threshold-Based Detection Logic (Frequency & Timeframe)
+- Incident Response & SOC Workflow Execution
+- Security Incident Reporting & Documentation
+- Alert Investigation & Threat Analysis
+- Timeline-Based Event Analysis
 
 ---
 
