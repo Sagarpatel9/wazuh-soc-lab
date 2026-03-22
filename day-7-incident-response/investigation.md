@@ -17,7 +17,7 @@ Multiple failed login attempts triggered a custom Wazuh detection rule (ID: 1000
 
 The alert was generated after multiple failed login attempts within a short time period.
 
-![Alert Overview](screenshots/wazuh-incident-alert-overview.png)
+![Alert Overview](/screenshots/wazuh-incident-alert-overview.png)
 
 ---
 
