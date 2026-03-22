@@ -27,7 +27,7 @@ The alert metadata provides detailed insight into the failed authentication atte
 
 ### Event Details
 
-![Metadata 1](screenshots/azuh-incident-alert-expanded-metadata1.png)
+![Metadata 1](screenshots/azuh-incident-alert-expanded-metadata.png)
 
 ![Metadata 2](screenshots/azuh-incident-alert-expanded-metadata1.png)
 
