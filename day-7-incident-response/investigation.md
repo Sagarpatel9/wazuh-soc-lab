@@ -27,17 +27,17 @@ The alert metadata provides detailed insight into the failed authentication atte
 
 ### Event Details
 
-![Metadata 1](./screenshots/wazuh-incident-alert-expanded-metadata.png)
+![Metadata 1](screenshots/wazuh-incident-alert-expanded-metadata.png)
 
-![Metadata 2](./screenshots/wazuh-incident-alert-expanded-metadata1.png)
+![Metadata 2](screenshots/wazuh-incident-alert-expanded-metadata1.png)
 
-![Metadata 3](./screenshots/wazuh-incident-alert-expanded-metadata2.png)
+![Metadata 3](screenshots/wazuh-incident-alert-expanded-metadata2.png)
 
-![Metadata 4](./screenshots/wazuh-incident-alert-expanded-metadata3.png)
+![Metadata 4](screenshots/wazuh-incident-alert-expanded-metadata3.png)
 
-![Metadata 5](./screenshots/wazuh-incident-alert-expanded-metadata4.png)
+![Metadata 5](screenshots/wazuh-incident-alert-expanded-metadata4.png)
 
-![Metadata 6](./screenshots/wazuh-incident-alert-expanded-metadata5.png)
+![Metadata 6](screenshots/wazuh-incident-alert-expanded-metadata5.png)
 
 ---
 
