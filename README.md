@@ -151,11 +151,12 @@ wazuh-soc-lab
 │ ├── mitre-mapping.md
 │ └── screenshots
 │
-└── day-6-detection-analysis
+├── day-6-detection-analysis
 │ ├── pattern-analysis.md
 │ ├── custom-rule.md
 │ ├── validation.md
 │ └── screenshots
+│
 ├── day-7-incident-response
 │ ├── investigation.md
 │ ├── response.md
